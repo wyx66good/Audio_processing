@@ -1,6 +1,7 @@
 # Audio_processing
 基于紫光同创音频处理系统
 
+集合了FPGA 和 python仿真  
 
 一些调试笔记  
 【有道云笔记】预加从  
