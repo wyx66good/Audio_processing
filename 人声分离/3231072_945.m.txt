@@ -1,0 +1,87 @@
+%基于负熵最大的FASTICA
+fs=1000;
+N=1024;
+t=(0:N-1)/fs;
+f1=60;
+f2=150;
+f3=200;
+I1=sin(2*pi*f1*t);
+I2=cos(2*pi*f2*t);
+I3=randn(size(t));
+% I3=sin(2*pi*f3*t);
+subplot(4,3,1),plot(I1),title('输入信号1'),axis([0,100,-4,4]);
+subplot(4,3,2),plot(I2),title('输入信号2'),axis([0,100,-4,4]);
+subplot(4,3,3),plot(I3),title('输入信号3'),axis([0,100,-4,4]);
+
+% 将其组成矩阵
+S=[I1;I2;I3];                          % 信号个数即为变量数
+                                       % 因此S_all是一个变量个数＊采样个数的矩阵
+Sweight=rand(size(S,1));               % 取一随机矩阵，作为信号混合的权矩阵
+MixedS=Sweight*S;                      % 得到三个信号的混合信号矩阵
+
+% 将混合矩阵重新排列并输出
+subplot(4,3,4),plot(MixedS(1,:)),title('混合信号1'),axis([0,100,-4,4]);
+subplot(4,3,5),plot(MixedS(2,:)),title('混合信号2'),axis([0,100,-4,4]);
+subplot(4,3,6),plot(MixedS(3,:)),title('混合信号3'),axis([0,100,-4,4]);
+MixedS_bak=MixedS;                         % 将混合后的数据备份，以便在恢复时直接调用
+%%%%%%%%%%%%%%%%%%%%%%%%%%  标准化  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+MixedS_mean=zeros(3,1);
+for i=1:3
+    MixedS_mean(i)=mean(MixedS(i,:));
+end                                        % 计算MixedS的均值
+
+for i=1:3
+    for j=1:size(MixedS,2)
+        MixedS(i,j)=MixedS(i,j)-MixedS_mean(i);
+    end
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  白化  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+MixedS_cov=cov(MixedS');                    % cov为求协方差的函数
+[E,D]=eig(MixedS_cov);                      % 对信号矩阵的协方差函数进行特征值分解
+Q=inv(sqrt(D))*(E)';                        % Q为白化矩阵
+MixedS_white=Q*MixedS;                      % MixedS_white为白化后的信号矩阵
+IsI=cov(MixedS_white');                     % IsI应为单位阵            
+
+%%%%%%%%%%%%%%%%%%%%%%%%　FASTICA算法  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+X=MixedS_white;                            % 以下算法将对X进行操作
+[VariableNum,SampleNum]=size(X);
+numofIC=VariableNum;                       % 在此应用中，独立元个数等于变量个数
+B=zeros(numofIC,VariableNum);              % 初始化列向量w的寄存矩阵,B=[b1  b2  ...   bd]
+for r=1:numofIC
+    i=1;maxIterationsNum=100;               % 设置最大迭代次数（即对于每个独立分量而言迭代均不超过此次数）
+    IterationsNum=0;
+    b=rand(numofIC,1)-.5;                  % 随机设置b初值
+    b=b/norm(b);                           % 对b标准化 norm(b):向量元素平方和开根号,,相当于单位化向量b
+    while i<=maxIterationsNum+1
+        if i == maxIterationsNum           % 循环结束处理
+            fprintf('\n第%d分量在%d次迭代内并不收敛。', r,maxIterationsNum);
+            break;
+        end
+        bOld=b;                          
+        a2=1;
+        u=1;
+        t=X'*b;
+        g=t.*exp(-a2*t.^2/2);%相当于g=y.e(-y2/2)
+        dg=(1-a2*t.^2).*exp(-a2*t.^2/2);%对g的求导
+        b=((1-u)*t'*g*b+u*X*g)/SampleNum-mean(dg)*b;%对应公式3-11
+                                           % 核心公式，参见理论部分公式2.52
+        b=b-B*B'*b;                        % 对b正交化
+        b=b/norm(b); 
+        if abs(abs(b'*bOld)-1)<1e-9        % 如果收敛，则
+             B(:,r)=b;                     % 保存所得向量b
+             break;
+         end
+        i=i+1;        
+    end
+%    B(:,r)=b;                                % 保存所得向量b
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%  ICA计算的数据复原  %%%%%%%%%%%%%%%%%%%%%%%%%
+ICAedS=B'*Q*MixedS_bak;                     % 计算ICA后的矩阵
+
+% 将混合矩阵重新排列并输出
+subplot(4,3,7),plot(ICAedS(1,:)),title('ICA解混信号1'),axis([0,100,-4,4]);
+subplot(4,3,8),plot(ICAedS(2,:)),title('ICA解混信号2'),axis([0,100,-4,4]);
+subplot(4,3,9),plot(ICAedS(3,:)),title('ICA解混信号3'),axis([0,100,-4,4]);
