@@ -1,0 +1,433 @@
+# Reading D:/PDS_FPGA/Modelsim_SE_10_5/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap usim D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap adc D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap ddrc D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap ddrphy D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap hsst_e2 D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap iolhr_dft D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap ipal_e1 D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap pciegen2 D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 14:23:49 on May 24,2024
+# vlog -reportprogress 300 -work work D:/PDS_FPGA/Audio_test/source/ES7243E_reg_config.v D:/PDS_FPGA/Audio_test/source/ES8156_reg_config.v D:/PDS_FPGA/Audio_test/source/i2c_com.v D:/PDS_FPGA/Audio_test/source/i2s_loop.v D:/PDS_FPGA/Audio_test/source/pgr_i2s_rx.v D:/PDS_FPGA/Audio_test/source/pgr_i2s_tx.v D:/PDS_FPGA/Audio_test/source/voice_loop.v D:/PDS_FPGA/Audio_test/source/TOP.v D:/PDS_FPGA/Audio_test/source/pcie_dma.v D:/PDS_FPGA/Audio_test/source/PCIE.v D:/PDS_FPGA/Audio_test/source/DDR3_interface_top.v D:/PDS_FPGA/Audio_test/source/arbiter.v D:/PDS_FPGA/Audio_test/source/simplified_AXI.v D:/PDS_FPGA/Audio_test/source/AXI_rw_FIFO.v D:/PDS_FPGA/Audio_test/source/pp-1024/released/ipsxb_fft_demo_pp_1024.v D:/PDS_FPGA/Audio_test/source/pp-1024/released/ipsxe_fft_exp_rom.v D:/PDS_FPGA/Audio_test/source/rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v D:/PDS_FPGA/Audio_test/source/rtl/distram_sreg/ipsxe_fft_distram_sreg.v D:/PDS_FPGA/Audio_test/source/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v D:/PDS_FPGA/Audio_test/source/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v D:/PDS_FPGA/Audio_test/source/rtl/drm_sdpram/ipsxb_fft_drm_sdpram_9k.v D:/PDS_FPGA/Audio_test/source/drm_sdpram/rtl/ipsxb_fft_drm_sdpram_v1_8_9k.v D:/PDS_FPGA/Audio_test/source/rtl/synplify/ipsxb_fft_core_v1_0_vpAll.vp D:/PDS_FPGA/Audio_test/source/source/sin.v D:/PDS_FPGA/Audio_test/source/source/fft_hami.v D:/PDS_FPGA/Audio_test/source/source/fft_ip.v D:/PDS_FPGA/Audio_test/source/source/rtl/HDMI_top.v D:/PDS_FPGA/Audio_test/source/HDMI_top/iic_dri.v D:/PDS_FPGA/Audio_test/source/HDMI_top/ms72xx_ctl.v D:/PDS_FPGA/Audio_test/source/HDMI_top/ms7200_ctl.v D:/PDS_FPGA/Audio_test/source/HDMI_top/ms7210_ctl.v D:/PDS_FPGA/Audio_test/source/HDMI_top/pattern_vg.v D:/PDS_FPGA/Audio_test/source/HDMI_top/sync_vg.v D:/PDS_FPGA/Audio_test/source/HDMI_top/video_driver.v D:/PDS_FPGA/Audio_test/source/FIR.v D:/PDS_FPGA/Audio_test/source/Voice_change.v D:/PDS_FPGA/Audio_test/source/pre_add.v D:/PDS_FPGA/Audio_test/ipcore/PLL/PLL.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_apb_cross_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_apb_mux_v1_1.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_apb2dbi_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_cfg_init_v1_3.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_hard_ctrl_v1_3.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_soft_phy_v1_2a.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_seio_intf_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_sync_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_top_v1_3.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_ext_ram/ipsl_pcie_ext_rcvd_ram/ipsl_pcie_ext_rcvd_ram.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_ext_ram/ipsl_pcie_ext_rcvd_ram/rtl/ipml_sdpram_v1_5_ipsl_pcie_ext_rcvd_ram.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_ext_ram/ipsl_pcie_ext_rcvh_ram/ipsl_pcie_ext_rcvh_ram.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_ext_ram/ipsl_pcie_ext_rcvh_ram/rtl/ipml_sdpram_v1_5_ipsl_pcie_ext_rcvh_ram.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_ext_ram/ipsl_pcie_retryd_ram/ipsl_pcie_retryd_ram.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_ext_ram/ipsl_pcie_retryd_ram/rtl/ipml_spram_v1_4_ipsl_pcie_retryd_ram.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsst_rst_cross_sync_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsst_rst_debounce_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsst_rst_wtchdg_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsstl_phy_mac_rdata_proc.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsstl_rst4mcrsw_rx_init_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsstl_rst4mcrsw_rx_rst_fsm_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsstl_rst4mcrsw_rx_rst_initfsm_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsstl_rst4mcrsw_rx_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsstl_rst4mcrsw_tx_rst_fsm_v1_1.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsstl_rst4mcrsw_tx_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipsl_pcie_pipe/hsstl_rst4mcrsw_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/ipml_pcie_hsst_x1_top.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/ipml_pcie_hsst_x2_top.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/ipml_pcie_hsst_x4_top.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_pcie_hsst_x1_wrapper_v1_3e.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_pcie_hsst_x2_wrapper_v1_3e.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_pcie_hsst_x4_wrapper_v1_3e.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_fifo_clr_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_lane_powerup_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_pll_rst_fsm_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_rst_debounce_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_rst_pll_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_rst_rx_v1_1.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_rst_sync_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_rst_tx_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_rst_v1_1.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_rst_wtchdg_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_rxlane_rst_fsm_v1_1.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/rtl/ipml_pcie_hsst/rtl/ipml_hsst_rst/ipml_hsst_txlane_rst_fsm_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/pcie_test/pcie_test.v D:/PDS_FPGA/Audio_test/ipcore/PCIE_FIFO/rtl/ipml_fifo_ctrl_v1_3.v D:/PDS_FPGA/Audio_test/ipcore/PCIE_FIFO/rtl/ipml_sdpram_v1_6_PCIE_FIFO.v D:/PDS_FPGA/Audio_test/ipcore/PCIE_FIFO/rtl/ipml_fifo_v1_6_PCIE_FIFO.v D:/PDS_FPGA/Audio_test/ipcore/PCIE_FIFO/PCIE_FIFO.v D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/ddr3_interface.v D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/ddr3_interface_ddrphy_top.v D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ipsxb_rst_sync_v1_1.v D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_calib_mux_v1_3.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_calib_top_v1_3.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_control_path_adj_v1_0.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_data_slice_v1_4.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_data_slice_dqs_gate_cal_v1_3.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_data_slice_wrlvl_v1_4.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dfi_v1_4.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dll_update_ctrl_v1_0.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dqsi_rdel_cal_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dqs_gate_coarse_cal_v1_3.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dqs_rddata_align_v1_3.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_drift_ctrl_v1_3.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_gate_update_ctrl_v1_3.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_gatecal_v1_3.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_info_v1_0.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_init_v1_0.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_main_ctrl_v1_3.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_rdcal_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_reset_ctrl_v1_4.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_rst_debounce_v1_0.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_slice_rddata_align_v1_0.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_training_ctrl_v1_0.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_upcal_v1_4.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_wdata_path_adj_v1_0.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_wrlvl_v1_0.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_slice_top_v1_4.v D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/pll/ipsxb_ddrphy_pll_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_apb_cross_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_calib_delay_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_cfg_apb_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_bm_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_rowaddr_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_sm_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_top_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_back_ctrl_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_buf_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_out_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_top_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dfi_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_lp_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_mrs_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_prefetch_fifo_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_rdatapath_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_reg_fifo2_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_ui_axi_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdatapath_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdp_align_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdp_dcp_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wrapper_v1_2a.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_com_timing_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_tfaw_timing_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_tfaw_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_act2wr_pass_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_act_pass_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_pre_pass_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_rd_pass_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_ref_pass_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_wr_pass_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_trc_timing_v1_2.vp D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/distributed_fifo/ipsxb_distributed_fifo_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/distributed_fifo/rtl/ipsxb_distributed_fifo_ctr_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/distributed_fifo/rtl/ipsxb_distributed_fifo_v1_0_distributed_fifo_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/distributed_fifo/rtl/ipsxb_distributed_sdpram_v1_0_distributed_fifo_v1_0.v D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_video/rtl/ipml_fifo_ctrl_v1_3.v D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_video/rtl/ipml_sdpram_v1_6_axi_fifo_video.v D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_video/rtl/ipml_fifo_v1_6_axi_fifo_video.v D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_video/axi_fifo_video.v D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_o/rtl/ipml_fifo_ctrl_v1_3.v D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_o/rtl/ipml_sdpram_v1_6_axi_fifo_o.v D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_o/rtl/ipml_fifo_v1_6_axi_fifo_o.v D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_o/axi_fifo_o.v D:/PDS_FPGA/Audio_test/ipcore/pll_hdmi/pll_hdmi.v D:/PDS_FPGA/Audio_test/ipcore/fft_ram_1024/rtl/ipml_sdpram_v1_6_fft_ram_1024.v D:/PDS_FPGA/Audio_test/ipcore/fft_ram_1024/fft_ram_1024.v D:/PDS_FPGA/Audio_test/ipcore/PLL2/PLL2.v D:/PDS_FPGA/Audio_test/ipcore/asfifo_1024x16/rtl/ipml_fifo_ctrl_v1_3.v D:/PDS_FPGA/Audio_test/ipcore/asfifo_1024x16/rtl/ipml_sdpram_v1_6_asfifo_1024x16.v D:/PDS_FPGA/Audio_test/ipcore/asfifo_1024x16/rtl/ipml_fifo_v1_6_asfifo_1024x16.v D:/PDS_FPGA/Audio_test/ipcore/asfifo_1024x16/asfifo_1024x16.v D:/PDS_FPGA/Audio_test/source/sim_tb.v D:/PDS_FPGA/Audio_test/source/pcie_dma.v 
+# -- Compiling module ES7243E_reg_config
+# ** Error (suppressible): D:/PDS_FPGA/Audio_test/source/ES7243E_reg_config.v(21): (vlog-2388) 'clock_i2c' already declared in this scope (ES7243E_reg_config).
+# -- Compiling module ES8156_reg_config
+# -- Compiling module i2c_com
+# -- Compiling module i2s_loop
+# -- Compiling module pgr_i2s_rx
+# -- Compiling module pgr_i2s_tx
+# -- Compiling module voice_loop_test
+# -- Compiling module TOP
+# ** Error (suppressible): D:/PDS_FPGA/Audio_test/source/TOP.v(115): (vlog-2388) 'hdmi_tx_pix_clk' already declared in this scope (TOP).
+# ** Error (suppressible): D:/PDS_FPGA/Audio_test/source/TOP.v(301): (vlog-2388) 'rx_data_32_out' already declared in this scope (TOP).
+# -- Compiling module pcie_dma
+# -- Compiling module PCIE
+# ** Error (suppressible): D:/PDS_FPGA/Audio_test/source/PCIE.v(53): (vlog-2388) 'smlh_link_up' already declared in this scope (PCIE).
+# ** Error (suppressible): D:/PDS_FPGA/Audio_test/source/PCIE.v(54): (vlog-2388) 'rdlh_link_up' already declared in this scope (PCIE).
+# ** Error (suppressible): D:/PDS_FPGA/Audio_test/source/PCIE.v(72): (vlog-2388) 'cfg_pbus_num' already declared in this scope (PCIE).
+# ** Error (suppressible): D:/PDS_FPGA/Audio_test/source/PCIE.v(73): (vlog-2388) 'cfg_pbus_dev_num' already declared in this scope (PCIE).
+# -- Compiling module DDR3_interface_top
+# -- Compiling module arbiter
+# -- Compiling module simplified_AXI
+# -- Compiling module AXI_rw_FIFO
+# ** Warning: (vlog-2121) D:/PDS_FPGA/Audio_test/source/AXI_rw_FIFO.v(156): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) D:/PDS_FPGA/Audio_test/source/AXI_rw_FIFO.v(157): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# -- Compiling module ipsxb_fft_demo_pp_1024
+# -- Compiling module ipsxe_fft_exp_rom
+# -- Compiling module ipsxe_fft_distram_sdpram
+# -- Compiling module ipsxe_fft_distram_sreg
+# -- Compiling module ipsxe_fft_distributed_sdpram_v1_2
+# -- Compiling module ipsxe_fft_distributed_shiftregister_v1_3
+# -- Compiling module ipsxb_fft_drm_sdpram_9k
+# -- Compiling module ipsxb_fft_drm_sdpram_v1_8_9k
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/source/rtl/synplify/ipsxb_fft_core_v1_0_vpAll.vp(20): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/source/rtl/synplify/ipsxb_fft_core_v1_0_vpAll.vp(20): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module sin
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/source/source/fft_hami.v(1): near "module": syntax error, unexpected module.
+# ** Error: D:/PDS_FPGA/Audio_test/source/rtl/synplify/ipsxb_fft_core_v1_0_vpAll.vp(20): (vlog-13205) Syntax error found in the scope following 'N'. Is there a missing '::'?
+# -- Compiling module fft_ip
+# -- Compiling module HDMI_top
+# -- Compiling module iic_dri
+# -- Compiling module ms72xx_ctl
+# -- Compiling module ms7200_ctl
+# -- Compiling module ms7210_ctl
+# -- Compiling module pattern_vg
+# -- Compiling module sync_vg
+# -- Compiling module video_driver
+# -- Compiling module FIR
+# -- Compiling module Voice_change
+# -- Compiling module pre_add
+# ** Error (suppressible): D:/PDS_FPGA/Audio_test/source/pre_add.v(22): (vlog-2388) 'data_out' already declared in this scope (pre_add).
+# -- Compiling module PLL
+# -- Compiling module ipsl_pcie_apb_cross_v1_0
+# -- Compiling module ipsl_pcie_apb_mux_v1_1
+# -- Compiling module ipsl_pcie_apb2dbi_v1_0
+# -- Compiling module ipsl_pcie_cfg_init_v1_3
+# -- Compiling module ipsl_pcie_hard_ctrl_v1_3
+# -- Compiling module ipsl_pcie_soft_phy_v1_2a
+# -- Compiling module ipsl_pcie_seio_intf_v1_0
+# -- Compiling module ipsl_pcie_sync_v1_0
+# -- Compiling module ipsl_pcie_top_v1_3
+# -- Compiling module ipsl_pcie_ext_rcvd_ram
+# -- Compiling module ipml_sdpram_v1_5_ipsl_pcie_ext_rcvd_ram
+# -- Compiling module ipsl_pcie_ext_rcvh_ram
+# -- Compiling module ipml_sdpram_v1_5_ipsl_pcie_ext_rcvh_ram
+# -- Compiling module ipsl_pcie_retryd_ram
+# -- Compiling module ipml_spram_v1_4_ipsl_pcie_retryd_ram
+# -- Compiling module hsst_rst_cross_sync_v1_0
+# -- Compiling module hsst_rst_debounce_v1_0
+# -- Compiling module hsst_rst_wtchdg_v1_0
+# -- Compiling module hsstl_phy_mac_rdata_proc
+# -- Compiling module hsstl_rst4mcrsw_rx_init_v1_0
+# -- Compiling module hsstl_rst4mcrsw_rx_rst_fsm_v1_0
+# -- Compiling module hsstl_rst4mcrsw_rx_rst_initfsm_v1_0
+# -- Compiling module hsstl_rst4mcrsw_rx_v1_0
+# -- Compiling module hsstl_rst4mcrsw_tx_rst_fsm_v1_1
+# -- Compiling module hsstl_rst4mcrsw_tx_v1_0
+# -- Compiling module hsstl_rst4mcrsw_v1_0
+# -- Compiling module ipml_pcie_hsst_x1_top
+# -- Compiling module ipml_pcie_hsst_x2_top
+# -- Compiling module ipml_pcie_hsst_x4_top
+# -- Compiling module ipml_pcie_hsst_x1_wrapper_v1_3e
+# -- Compiling module ipml_pcie_hsst_x2_wrapper_v1_3e
+# -- Compiling module ipml_pcie_hsst_x4_wrapper_v1_3e
+# -- Compiling module ipml_hsst_fifo_clr_v1_0
+# -- Compiling module ipml_hsst_lane_powerup_v1_0
+# -- Compiling module ipml_hsst_pll_rst_fsm_v1_0
+# -- Compiling module ipml_hsst_rst_debounce_v1_0
+# -- Compiling module ipml_hsst_rst_pll_v1_0
+# -- Compiling module ipml_hsst_rst_rx_v1_1
+# -- Compiling module ipml_hsst_rst_sync_v1_0
+# -- Compiling module ipml_hsst_rst_tx_v1_0
+# -- Compiling module ipml_hsst_rst_v1_1
+# -- Compiling module ipml_hsst_rst_wtchdg_v1_0
+# -- Compiling module ipml_hsst_rxlane_rst_fsm_v1_1
+# -- Compiling module ipml_hsst_txlane_rst_fsm_v1_0
+# -- Compiling module pcie_test
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# -- Compiling module ipml_sdpram_v1_6_PCIE_FIFO
+# -- Compiling module ipml_fifo_v1_6_PCIE_FIFO
+# -- Compiling module PCIE_FIFO
+# -- Compiling module ddr3_interface
+# -- Compiling module ddr3_interface_ddrphy_top
+# -- Compiling module ipsxb_rst_sync_v1_1
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_calib_mux_v1_3.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_calib_mux_v1_3.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_calib_top_v1_3.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_calib_top_v1_3.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_control_path_adj_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_control_path_adj_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_data_slice_v1_4.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_data_slice_v1_4.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_data_slice_dqs_gate_cal_v1_3.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_data_slice_dqs_gate_cal_v1_3.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_data_slice_wrlvl_v1_4.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_data_slice_wrlvl_v1_4.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dfi_v1_4.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dfi_v1_4.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dll_update_ctrl_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dqsi_rdel_cal_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dqs_gate_coarse_cal_v1_3.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dqs_rddata_align_v1_3.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_dqs_rddata_align_v1_3.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_drift_ctrl_v1_3.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_gate_update_ctrl_v1_3.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_gate_update_ctrl_v1_3.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_gatecal_v1_3.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_gatecal_v1_3.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_info_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_info_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_init_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_main_ctrl_v1_3.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_main_ctrl_v1_3.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_rdcal_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_rdcal_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_reset_ctrl_v1_4.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_reset_ctrl_v1_4.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_rst_debounce_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_rst_debounce_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_slice_rddata_align_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_slice_rddata_align_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_training_ctrl_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_training_ctrl_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_upcal_v1_4.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_upcal_v1_4.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_wdata_path_adj_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_wdata_path_adj_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_wrlvl_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_wrlvl_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipsxb_ddrphy_slice_top_v1_4
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_wrlvl_v1_0.vp(29): syntax error in protected region.
+# 
+# -- Compiling module ipsxb_ddrphy_pll_v1_0
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_upcal_v1_4.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_wdata_path_adj_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_apb_cross_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_apb_cross_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_calib_delay_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_cfg_apb_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_cfg_apb_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_bm_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_bm_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_rowaddr_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_sm_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_sm_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_top_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_top_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_back_ctrl_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_back_ctrl_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_buf_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_buf_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_out_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_top_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_top_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dfi_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dfi_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_lp_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_lp_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_mrs_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_mrs_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_prefetch_fifo_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_rdatapath_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_rdatapath_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_reg_fifo2_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_reg_fifo2_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_ui_axi_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_ui_axi_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdatapath_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdp_align_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdp_align_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdp_dcp_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdp_dcp_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wrapper_v1_2a.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wrapper_v1_2a.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_com_timing_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_com_timing_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_tfaw_timing_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_tfaw_timing_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_tfaw_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_tfaw_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_act2wr_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_act2wr_pass_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_act_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_act_pass_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_pre_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_pre_pass_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_rd_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_rd_pass_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_ref_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_ref_pass_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_wr_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_trc_timing_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_trc_timing_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipsxb_distributed_fifo_v1_0
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_wr_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_trc_timing_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipsxb_distributed_fifo_ctr_v1_0
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_rd_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_ref_pass_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipsxb_distributed_fifo_v1_0_distributed_fifo_v1_0
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_pre_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# -- Compiling module ipsxb_distributed_sdpram_v1_0_distributed_fifo_v1_0
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_act2wr_pass_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_timing_act_pass_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Warning: D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_video/rtl/ipml_fifo_ctrl_v1_3.v(21): (vlog-2275) 'ipml_fifo_ctrl_v1_3' already exists and will be overwritten.
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_tfaw_timing_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_tfaw_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipml_sdpram_v1_6_axi_fifo_video
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wrapper_v1_2a.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/syn_mod/ipsxb_mcdq_com_timing_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipml_fifo_v1_6_axi_fifo_video
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdp_align_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdp_dcp_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module axi_fifo_video
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_wdatapath_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Warning: D:/PDS_FPGA/Audio_test/ipcore/axi_fifo_o/rtl/ipml_fifo_ctrl_v1_3.v(21): (vlog-2275) 'ipml_fifo_ctrl_v1_3' already exists and will be overwritten.
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_ui_axi_v1_2.vp(29): syntax error in protected region.
+# 
+# -- Compiling module ipml_sdpram_v1_6_axi_fifo_o
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_rdatapath_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_reg_fifo2_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipml_fifo_v1_6_axi_fifo_o
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_mrs_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_prefetch_fifo_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module axi_fifo_o
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_lp_v1_2.vp(29): syntax error in protected region.
+# 
+# -- Compiling module pll_hdmi
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_top_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dfi_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipml_sdpram_v1_6_fft_ram_1024
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_out_v1_2.vp(29): syntax error in protected region.
+# 
+# -- Compiling module fft_ram_1024
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_back_ctrl_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcp_buf_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module PLL2
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_top_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Warning: D:/PDS_FPGA/Audio_test/ipcore/asfifo_1024x16/rtl/ipml_fifo_ctrl_v1_3.v(21): (vlog-2275) 'ipml_fifo_ctrl_v1_3' already exists and will be overwritten.
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_rowaddr_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_sm_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipml_sdpram_v1_6_asfifo_1024x16
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_cfg_apb_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_dcd_bm_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module ipml_fifo_v1_6_asfifo_1024x16
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_apb_cross_v1_2.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/mcdq_ctrl/ipsxb_mcdq_calib_delay_v1_2.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module asfifo_1024x16
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_slice_rddata_align_v1_0.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_training_ctrl_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# -- Compiling module sim_tb
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_reset_ctrl_v1_4.vp(29): syntax error in protected region.
+# 
+# ** Error: D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_rst_debounce_v1_0.vp(29): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+# ** Warning: D:/PDS_FPGA/Audio_test/source/pcie_dma.v(6): (vlog-2275) 'pcie_dma' already exists and will be overwritten.
+# -- Compiling module pcie_dma
+# ** Error: (vlog-13069) D:/PDS_FPGA/Audio_test/ipcore/ddr3_interface/rtl/ddrphy/ipsxb_ddrphy_rdcal_v1_2.vp(29): syntax error in protected region.
+# 
+# End time: 14:23:58 on May 24,2024, Elapsed time: 0:00:09
+# Errors: 238, Warnings: 6
+# ** Error: D:/PDS_FPGA/Modelsim_SE_10_5/win64/vlog failed.
+# Error in macro ./run_behav_compile.tcl line 187
+# D:/PDS_FPGA/Modelsim_SE_10_5/win64/vlog failed.
+#     while executing
+# "vlog -work work   \
+# "D:/PDS_FPGA/Audio_test/source/ES7243E_reg_config.v" \
+# "D:/PDS_FPGA/Audio_test/source/ES8156_reg_config.v" \
+# "D:/PDS_FPGA/Audio_te..."
+# do {run_behav_simulate.tcl}
+# vsim -novopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 sim_tb usim.GTP_GRS 
+# Start time: 14:23:59 on May 24,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Error: (vsim-3170) Could not find 'sim_tb'.
+#         Searched libraries:
+#             D:/PDS_FPGA/Audio_test/sim/behav/work
+#             D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/usim
+#             D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/adc
+#             D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/ddrc
+#             D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/ddrphy
+#             D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/hsst_e2
+#             D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/iolhr_dft
+#             D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/ipal_e1
+#             D:/PDS_FPGA/PDS_2022.2-SP1-Lite/sim_lib/pciegen2
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run_behav_simulate.tcl PAUSED at line 6
+# End time: 14:24:07 on May 24,2024, Elapsed time: 0:00:08
+# Errors: 1, Warnings: 1

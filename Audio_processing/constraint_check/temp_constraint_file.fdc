@@ -1,0 +1,5 @@
+#This is temp constraint file, used to record unsaved constraints, if there are some errors, please modify them through User Constraint Editor directly
+
+#write attribute table
+define_attribute {n:u_pcie/pclk} {PAP_CLOCK_ASSIGN} {GTP_CLKBUFR}
+

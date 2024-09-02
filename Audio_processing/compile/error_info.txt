@@ -1,0 +1,17 @@
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/source/display/iic_dri.v(line number: 23)] Duplicate module name iic_dri is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/source/display/ms72xx_ctl.v(line number: 22)] Duplicate module name ms72xx_ctl is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/source/display/ms7200_ctl.v(line number: 22)] Duplicate module name ms7200_ctl is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/source/display/ms7210_ctl.v(line number: 22)] Duplicate module name ms7210_ctl is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/radix2/sqrt.v(line number: 1)] Duplicate module name sqrt is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/radix2/distram_sdpram/ipsxe_fft_distram_sdpram.v(line number: 20)] Duplicate module name ipsxe_fft_distram_sdpram is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/radix2/distram_sreg/ipsxe_fft_distram_sreg.v(line number: 21)] Duplicate module name ipsxe_fft_distram_sreg is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/radix2/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v(line number: 20)] Duplicate module name ipsxe_fft_distributed_sdpram_v1_2 is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/radix2/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v(line number: 19)] Duplicate module name ipsxe_fft_distributed_shiftregister_v1_3 is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/radix2/drm_sdpram/ipsxb_fft_drm_sdpram_9k.v(line number: 16)] Duplicate module name ipsxb_fft_drm_sdpram_9k is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/radix2/drm_sdpram/rtl/ipsxb_fft_drm_sdpram_v1_8_9k.v(line number: 18)] Duplicate module name ipsxb_fft_drm_sdpram_v1_8_9k is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/synplify/ipsxe_fft_output_ctrl_v1_0.vp(line number: 104)] Duplicate module name ipsxe_fft_output_ctrl_v1_0 is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/source/source/FIR/FIR.v(line number: 8)] Duplicate module name FIR is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4031: [D:/PDS_FPGA/Audio_test/source/x_h_7_rom/x_h_7_rom_tb.v(line number: 99)] Forever statement is not supported for synthesis
+Verilog-4146: [D:/PDS_FPGA/Audio_test/ipcore/x_h_7_rom/rtl/ipml_rom_v1_5_x_h_7_rom.v(line number: 18)] Duplicate module name ipml_rom_v1_5_x_h_7_rom is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/ipcore/x_h_7_rom/rtl/ipml_spram_v1_5_x_h_7_rom.v(line number: 17)] Duplicate module name ipml_spram_v1_5_x_h_7_rom is not allowed. Enable Allow Duplicate Modules first.
+Verilog-4146: [D:/PDS_FPGA/Audio_test/ipcore/x_h_7_rom/x_h_7_rom.v(line number: 16)] Duplicate module name x_h_7_rom is not allowed. Enable Allow Duplicate Modules first.

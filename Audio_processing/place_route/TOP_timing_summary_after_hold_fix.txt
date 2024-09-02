@@ -1,0 +1,160 @@
+Design Summary : Some Constraints Violated.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     13.040       0.000              0           1359
+ pclk                   pclk                         0.120       0.000              0            959
+ pclk_div2              pclk_div2                    2.082       0.000              0           1145
+ hdmi_tx_pix_clk        hdmi_tx_pix_clk             -2.889   -3443.879           3600          56111
+ clk_12M                clk_12M                     78.485       0.000              0             67
+ clock_i2c              clock_i2c                 9994.228       0.000              0            467
+ clk_12M                clock_i2c                   -5.610    -498.294             96             96
+ es0_dsclk              es1_dsclk                  324.438       0.000              0             32
+ es1_dsclk              es1_dsclk                  323.705       0.000              0             48
+ es0_dsclk              dac2_es1_dsclk             323.901       0.000              0             16
+ dac2_es1_dsclk         dac2_es1_dsclk             324.083       0.000              0             48
+ es0_dsclk              es0_dsclk                  646.109       0.000              0            365
+ DebugCore_JCLK         DebugCore_JCLK              23.696       0.000              0           6902
+ DebugCore_CAPTURE      DebugCore_JCLK              19.365       0.000              0            160
+ DebugCore_JCLK         DebugCore_CAPTURE           47.518       0.000              0             16
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.255       0.000              0           1359
+ pclk                   pclk                         0.341       0.000              0            959
+ pclk_div2              pclk_div2                    0.188       0.000              0           1145
+ hdmi_tx_pix_clk        hdmi_tx_pix_clk             -0.104      -0.213              5          56111
+ clk_12M                clk_12M                      0.339       0.000              0             67
+ clock_i2c              clock_i2c                    0.128       0.000              0            467
+ clk_12M                clock_i2c                    3.555       0.000              0             96
+ es0_dsclk              es1_dsclk                  324.678       0.000              0             32
+ es1_dsclk              es1_dsclk                    0.364       0.000              0             48
+ es0_dsclk              dac2_es1_dsclk             325.354       0.000              0             16
+ dac2_es1_dsclk         dac2_es1_dsclk               0.366       0.000              0             48
+ es0_dsclk              es0_dsclk                    0.235       0.000              0            365
+ DebugCore_JCLK         DebugCore_JCLK               0.310       0.000              0           6902
+ DebugCore_CAPTURE      DebugCore_JCLK              24.431       0.000              0            160
+ DebugCore_JCLK         DebugCore_CAPTURE            0.364       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     17.415       0.000              0            269
+ pclk                   pclk                         0.472       0.000              0            101
+ pclk_div2              pclk_div2                    4.029       0.000              0            212
+ hdmi_tx_pix_clk        hdmi_tx_pix_clk             -2.960   -4014.015           2191          14740
+ clock_i2c              es1_dsclk                   11.327       0.000              0             18
+ clock_i2c              dac2_es1_dsclk              11.144       0.000              0             18
+ clock_i2c              es0_dsclk                   22.579       0.000              0             73
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.598       0.000              0            269
+ pclk                   pclk                         0.653       0.000              0            101
+ pclk_div2              pclk_div2                    1.921       0.000              0            212
+ hdmi_tx_pix_clk        hdmi_tx_pix_clk              0.910       0.000              0          14740
+ clock_i2c              es1_dsclk                   -4.879      -9.758              2             18
+ clock_i2c              dac2_es1_dsclk              -4.353      -8.706              2             18
+ clock_i2c              es0_dsclk                   -4.521    -304.126             73             73
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     15.020       0.000              0           1359
+ pclk                   pclk                         1.210       0.000              0            959
+ pclk_div2              pclk_div2                    3.668       0.000              0           1145
+ hdmi_tx_pix_clk        hdmi_tx_pix_clk             -0.174      -2.121             23          56111
+ clk_12M                clk_12M                     79.304       0.000              0             67
+ clock_i2c              clock_i2c                 9995.870       0.000              0            467
+ clk_12M                clock_i2c                   -3.587    -313.311             96             96
+ es0_dsclk              es1_dsclk                  324.961       0.000              0             32
+ es1_dsclk              es1_dsclk                  324.212       0.000              0             48
+ es0_dsclk              dac2_es1_dsclk             324.609       0.000              0             16
+ dac2_es1_dsclk         dac2_es1_dsclk             324.529       0.000              0             48
+ es0_dsclk              es0_dsclk                  647.549       0.000              0            365
+ DebugCore_JCLK         DebugCore_JCLK              24.091       0.000              0           6902
+ DebugCore_CAPTURE      DebugCore_JCLK              20.887       0.000              0            160
+ DebugCore_JCLK         DebugCore_CAPTURE           48.416       0.000              0             16
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.197       0.000              0           1359
+ pclk                   pclk                         0.256       0.000              0            959
+ pclk_div2              pclk_div2                    0.159       0.000              0           1145
+ hdmi_tx_pix_clk        hdmi_tx_pix_clk             -0.072      -0.143              2          56111
+ clk_12M                clk_12M                      0.264       0.000              0             67
+ clock_i2c              clock_i2c                    0.112       0.000              0            467
+ clk_12M                clock_i2c                    2.326       0.000              0             96
+ es0_dsclk              es1_dsclk                  324.824       0.000              0             32
+ es1_dsclk              es1_dsclk                    0.285       0.000              0             48
+ es0_dsclk              dac2_es1_dsclk             325.298       0.000              0             16
+ dac2_es1_dsclk         dac2_es1_dsclk               0.287       0.000              0             48
+ es0_dsclk              es0_dsclk                    0.174       0.000              0            365
+ DebugCore_JCLK         DebugCore_JCLK               0.249       0.000              0           6902
+ DebugCore_CAPTURE      DebugCore_JCLK              24.941       0.000              0            160
+ DebugCore_JCLK         DebugCore_CAPTURE            0.372       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                     18.144       0.000              0            269
+ pclk                   pclk                         1.452       0.000              0            101
+ pclk_div2              pclk_div2                    5.083       0.000              0            212
+ hdmi_tx_pix_clk        hdmi_tx_pix_clk             -0.251     -27.586            279          14740
+ clock_i2c              es1_dsclk                   10.106       0.000              0             18
+ clock_i2c              dac2_es1_dsclk               9.969       0.000              0             18
+ clock_i2c              es0_dsclk                   21.552       0.000              0             73
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk                sys_clk                      0.448       0.000              0            269
+ pclk                   pclk                         0.484       0.000              0            101
+ pclk_div2              pclk_div2                    1.418       0.000              0            212
+ hdmi_tx_pix_clk        hdmi_tx_pix_clk              0.633       0.000              0          14740
+ clock_i2c              es1_dsclk                   -2.965      -5.930              2             18
+ clock_i2c              dac2_es1_dsclk              -2.627      -5.254              2             18
+ clock_i2c              es0_dsclk                   -2.691    -179.029             73             73
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

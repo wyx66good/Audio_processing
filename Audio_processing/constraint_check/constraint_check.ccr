@@ -1,0 +1,125 @@
+##### Written on 2024/08/15 22:05:15 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	TOP
+
+Constraint File(s) : 
+	D:/PDS_FPGA/Audio_test/voice.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 27 critical warning(s), 5 warning(s), out of 669 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+define_attribute {p:hdmi_tx_data[23]} {PAP_IO_LOC} {H19}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 507)] | Port hdmi_tx_data[23] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[22]} {PAP_IO_LOC} {H22}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 514)] | Port hdmi_tx_data[22] has been placed at location H22, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[21]} {PAP_IO_LOC} {H21}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 521)] | Port hdmi_tx_data[21] has been placed at location H21, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[16]} {PAP_IO_LOC} {K17}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 556)] | Port hdmi_tx_data[16] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[15]} {PAP_IO_LOC} {L17}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 563)] | Port hdmi_tx_data[15] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[14]} {PAP_IO_LOC} {K20}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 570)] | Port hdmi_tx_data[14] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[13]} {PAP_IO_LOC} {L19}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 577)] | Port hdmi_tx_data[13] has been placed at location L19, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[8]} {PAP_IO_LOC} {M21}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 612)] | Port hdmi_tx_data[8] has been placed at location M21, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[5]} {PAP_IO_LOC} {R22}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 633)] | Port hdmi_tx_data[5] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[4]} {PAP_IO_LOC} {R20}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 640)] | Port hdmi_tx_data[4] has been placed at location R20, whose type is share pin.
+
+define_attribute {p:hdmi_tx_data[2]} {PAP_IO_LOC} {T21}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 654)] | Port hdmi_tx_data[2] has been placed at location T21, whose type is share pin.
+
+define_attribute {p:hdmi_tx_pix_clk} {PAP_IO_LOC} {M22}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 703)] | Port hdmi_tx_pix_clk has been placed at location M22, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[13]} {PAP_IO_LOC} {AB18}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 769)] | Port hdmi_rx_data[13] has been placed at location AB18, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[12]} {PAP_IO_LOC} {AA18}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 774)] | Port hdmi_rx_data[12] has been placed at location AA18, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[11]} {PAP_IO_LOC} {AB19}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 779)] | Port hdmi_rx_data[11] has been placed at location AB19, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[10]} {PAP_IO_LOC} {W18}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 784)] | Port hdmi_rx_data[10] has been placed at location W18, whose type is share pin.
+
+define_attribute {p:hdmi_rx_data[9]} {PAP_IO_LOC} {V17}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 789)] | Port hdmi_rx_data[9] has been placed at location V17, whose type is share pin.
+
+define_attribute {p:hdmi_rx_sda} {PAP_IO_LOC} {V20}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 839)] | Port hdmi_rx_sda has been placed at location V20, whose type is share pin.
+
+define_attribute {p:hdmi_rx_scl} {PAP_IO_LOC} {V19}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 846)] | Port hdmi_rx_scl has been placed at location V19, whose type is share pin.
+
+define_attribute {p:hdmi_rx_pix_clk} {PAP_IO_LOC} {AA12}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 863)] | Port hdmi_rx_pix_clk has been placed at location AA12, whose type is share pin.
+
+define_attribute {p:es1_sdout} {PAP_IO_LOC} {AB5}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 909)] | Port es1_sdout has been placed at location AB5, whose type is share pin.
+
+define_attribute {p:es1_dlrc} {PAP_IO_LOC} {Y5}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 959)] | Port es1_dlrc has been placed at location Y5, whose type is share pin.
+
+define_attribute {p:lin_test} {PAP_IO_LOC} {Y13}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 979)] | Port lin_test has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:pcie_perst_n} {PAP_IO_LOC} {A19}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 1106)] | Port pcie_perst_n has been placed at location A19, whose type is share pin.
+
+define_attribute {p:key_on[6]} {PAP_IO_LOC} {H20}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 1213)] | Port key_on[6] has been placed at location H20, whose type is share pin.
+
+define_attribute {p:key_on[5]} {PAP_IO_LOC} {J19}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 1218)] | Port key_on[5] has been placed at location J19, whose type is share pin.
+
+define_attribute {p:key_on[0]} {PAP_IO_LOC} {K18}
+	C: ConstraintEditor-2002: [D:/PDS_FPGA/Audio_test/voice.fdc(line number: 1243)] | Port key_on[0] has been placed at location K18, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+Issues without commands:
+********************************************
+
+
+Unconstrained ports:
+********************************************
+
+W: ConstraintEditor-4019: Port 'led[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'led[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'pclk_div2_led' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'pclk_led' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ref_led' unspecified I/O constraint.
+
+Constraints with matching wildcard expressions:
+********************************************
+
+

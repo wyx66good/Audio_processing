@@ -1,0 +1,834 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/PDS_FPGA/Audio_test/sim2/modelsim
+T_opt
+!s110 1721568682
+V2b86o3V[EGPPJTO0i0ZUS3
+04 24 4 work ipsxe_fft_onboard_top_tb fast 0
+=1-346f2430cd2f-669d0da9-3b2-6a64
+o-quiet -auto_acc_if_foreign -work work -suppress 12110 +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vd
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1721568681
+!i10b 1
+!s100 MVgKQ>`]3<h=n4QJ3V<Ik3
+I5?kRUK89ZQLlR4e1XUJeN0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 d_v_unit
+S1
+R0
+w1718557976
+8../../source/source/d.v
+F../../source/source/d.v
+L0 1
+Z5 OL;L;10.5;63
+r1
+!s85 0
+31
+Z6 !s108 1721568681.000000
+Z7 !s107 ../../ipcore/LMS_FIFO/rtl/ipml_fifo_ctrl_v1_3.v|../../ipcore/LMS_FIFO/rtl/ipml_sdpram_v1_6_LMS_FIFO.v|../../ipcore/LMS_FIFO/rtl/ipml_fifo_v1_6_LMS_FIFO.v|../../ipcore/LMS_FIFO/LMS_FIFO.v|../../ipcore/w_lms_ram/rtl/ipml_sdpram_v1_6_w_lms_ram.v|../../ipcore/Echo_cancellation_LMS_ram/rtl/ipml_sdpram_v1_6_Echo_cancellation_LMS_ram.v|../../ipcore/Frame_capture_ram/rtl/ipml_sdpram_v1_6_Frame_capture_ram.v|../../ipcore/Voice_change_ram/rtl/ipml_sdpram_v1_6_Voice_change_ram.v|../../ipcore/w_lms_ram/w_lms_ram.v|../../ipcore/Echo_cancellation_LMS_ram/Echo_cancellation_LMS_ram.v|../../ipcore/Frame_capture_ram/Frame_capture_ram.v|../../ipcore/Voice_change_ram/Voice_change_ram.v|../ipsxe_fft_onboard_top_tb.sv|../../source/Div_cell.v|../../source/divide32.v|../../source/w_updata.v|../../source/dot.v|../../source/Echo_cancellation_LMS.v|../../source/pre_add.v|../../source/Filter_modulation.v|../../source/sin_Amplitude_modulation.v|../../source/Linear_interpolation.v|../../source/Frame_capture.v|../../source/Framing.v|../../source/source/d.v|../../source/source/x.v|../../source/source/sin.v|../../source/source/Voice_change.v|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_GRS.v|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM9K.v|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K.v|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K_E1.v|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_APM_E1.v|
+Z8 !s90 -reportprogress|300|-incr|-sv|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_APM_E1.v|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K_E1.v|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K.v|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM9K.v|D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_GRS.v|-f|./ipsxb_fft_onboard_top_filelist.f|-l|vlog.log|
+!i113 0
+o-sv
+R1
+vDiv_cell
+R2
+R3
+!i10b 1
+!s100 2d]?3:[>5`FEj4>57bG883
+I<X9CSP0H_bdl2bFK:[7;S0
+R4
+!s105 Div_cell_v_unit
+S1
+R0
+w1721442905
+8../../source/Div_cell.v
+F../../source/Div_cell.v
+L0 13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@div_cell
+vDivider
+R2
+R3
+!i10b 1
+!s100 2m8DozP9A6]o`I:MGk6503
+IN`>4Z?@J7>Te5HGi^ZFaK0
+R4
+!s105 divide32_v_unit
+S1
+R0
+w1721562996
+8../../source/divide32.v
+F../../source/divide32.v
+L0 10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@divider
+vdot
+R2
+R3
+!i10b 1
+!s100 d[VGL5mUfFM3RG5@f<;UK0
+IeK3MimM=4ZWaPa6S`cLO71
+R4
+!s105 dot_v_unit
+S1
+R0
+w1720044521
+8../../source/dot.v
+F../../source/dot.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+vEcho_cancellation_LMS
+R2
+R3
+!i10b 1
+!s100 _VeTGNXLa<50MO[bgWTbo0
+I0aOJ:cBk3<^JG?I4CGd@Y2
+R4
+!s105 Echo_cancellation_LMS_v_unit
+S1
+R0
+w1721554442
+8../../source/Echo_cancellation_LMS.v
+F../../source/Echo_cancellation_LMS.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@echo_cancellation_@l@m@s
+vEcho_cancellation_LMS_ram
+R2
+R3
+!i10b 1
+!s100 ]f;i`b3bdD1c@K;>FED1m0
+IfZ1nogJ_A4=IoboLS?LEd3
+R4
+!s105 Echo_cancellation_LMS_ram_v_unit
+S1
+R0
+Z9 w1719139215
+8../../ipcore/Echo_cancellation_LMS_ram/Echo_cancellation_LMS_ram.v
+F../../ipcore/Echo_cancellation_LMS_ram/Echo_cancellation_LMS_ram.v
+Z10 L0 16
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@echo_cancellation_@l@m@s_ram
+vFilter_modulation
+R2
+R3
+!i10b 1
+!s100 >=3e;9Wi[8Mm11F>>5]ah1
+I6QLF[67G7jleL8KN>:UE53
+R4
+!s105 Filter_modulation_v_unit
+S1
+R0
+w1717131885
+8../../source/Filter_modulation.v
+F../../source/Filter_modulation.v
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@filter_modulation
+vFrame_capture
+R2
+R3
+!i10b 1
+!s100 oZ`4WJjSZZ^CYl7TR=8F;1
+I[J<4n1:Czd:iz7kfJ[Z5>2
+R4
+!s105 Frame_capture_v_unit
+S1
+R0
+w1717052892
+8../../source/Frame_capture.v
+F../../source/Frame_capture.v
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@frame_capture
+vFrame_capture_ram
+R2
+R3
+!i10b 1
+!s100 6@L:e[U<EnJ6I2ZcNF:;L2
+I;l2QSO;C@VnN79^MeHYKE2
+R4
+!s105 Frame_capture_ram_v_unit
+S1
+R0
+Z11 w1716993407
+8../../ipcore/Frame_capture_ram/Frame_capture_ram.v
+F../../ipcore/Frame_capture_ram/Frame_capture_ram.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@frame_capture_ram
+vFraming
+R2
+R3
+!i10b 1
+!s100 do3nYf?_2X[TWV0U@Gh_n2
+IiO4fj4nE>9KFiQMg5gA?O0
+R4
+!s105 Framing_v_unit
+S1
+R0
+w1716994507
+8../../source/Framing.v
+F../../source/Framing.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@framing
+vGTP_APM_E1
+R2
+R3
+!i10b 1
+!s100 ?2C;mBd;FmS2jQJh_G@mR0
+I]fcMG[g[jHE3NgSPmYVlC2
+R4
+!s105 GTP_APM_E1_v_unit
+S1
+R0
+Z12 w1692340974
+8D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_APM_E1.v
+FD:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_APM_E1.v
+L0 26
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@g@t@p_@a@p@m_@e1
+vGTP_DRM18K
+R2
+R3
+!i10b 1
+!s100 OV@HYa2H_Xg:8@PU3[MQG1
+IBBi9iV^P>BCLo_z[bTzH93
+R4
+!s105 GTP_DRM18K_v_unit
+S1
+R0
+R12
+8D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K.v
+FD:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K.v
+Z13 L0 28
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@g@t@p_@d@r@m18@k
+vGTP_DRM18K_E1
+R2
+R3
+!i10b 1
+!s100 zj^<Jcz;Mb;zI:Szl]^l=0
+I`hSK5>:5cYhUG3gUmSclQ0
+R4
+!s105 GTP_DRM18K_E1_v_unit
+S1
+R0
+R12
+8D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K_E1.v
+FD:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K_E1.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@g@t@p_@d@r@m18@k_@e1
+vGTP_DRM9K
+R2
+R3
+!i10b 1
+!s100 =TIfO[ZJ?faWRle@GO6AN2
+IUoPo=5T_S14<UWLhi9;[^1
+R4
+!s105 GTP_DRM9K_v_unit
+S1
+R0
+R12
+8D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM9K.v
+FD:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM9K.v
+Z14 L0 29
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@g@t@p_@d@r@m9@k
+vGTP_GRS
+R2
+R3
+!i10b 1
+!s100 Sj5bO^C:Fo>G6oTBY?`6T2
+I4>jen;W7>4eB>kClm=VmN0
+R4
+!s105 GTP_GRS_v_unit
+S1
+R0
+R12
+8D:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_GRS.v
+FD:/PDS_FPGA/PDS_2022.2-SP1-Lite/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_GRS.v
+R14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@g@t@p_@g@r@s
+vipml_fifo_ctrl_v1_3
+R2
+R3
+!i10b 1
+!s100 8XBVkmBXJWNke9Kz_7?oW0
+IZRB>0IK4ij;=jlQJ[1;V93
+R4
+!s105 ipml_fifo_ctrl_v1_3_v_unit
+S1
+R0
+w1692341200
+8../../ipcore/LMS_FIFO/rtl/ipml_fifo_ctrl_v1_3.v
+F../../ipcore/LMS_FIFO/rtl/ipml_fifo_ctrl_v1_3.v
+L0 21
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+vipml_fifo_v1_6_LMS_FIFO
+R2
+R3
+!i10b 1
+!s100 E]JVkMBb?N2aG]9BlLDCJ0
+I=RZVTVEd04^^ZblmC9?MG0
+R4
+!s105 ipml_fifo_v1_6_LMS_FIFO_v_unit
+S1
+R0
+Z15 w1718821568
+8../../ipcore/LMS_FIFO/rtl/ipml_fifo_v1_6_LMS_FIFO.v
+F../../ipcore/LMS_FIFO/rtl/ipml_fifo_v1_6_LMS_FIFO.v
+L0 23
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+nipml_fifo_v1_6_@l@m@s_@f@i@f@o
+vipml_sdpram_v1_6_Echo_cancellation_LMS_ram
+R2
+R3
+!i10b 1
+!s100 PlnXzlz^[fK96WL`QKi>=0
+IZ1R:h<3mMK[e^3^f09>EV2
+R4
+!s105 ipml_sdpram_v1_6_Echo_cancellation_LMS_ram_v_unit
+S1
+R0
+R9
+8../../ipcore/Echo_cancellation_LMS_ram/rtl/ipml_sdpram_v1_6_Echo_cancellation_LMS_ram.v
+F../../ipcore/Echo_cancellation_LMS_ram/rtl/ipml_sdpram_v1_6_Echo_cancellation_LMS_ram.v
+Z16 L0 18
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+nipml_sdpram_v1_6_@echo_cancellation_@l@m@s_ram
+vipml_sdpram_v1_6_Frame_capture_ram
+R2
+R3
+!i10b 1
+!s100 i09i`Em`OEiSWR1ZKkKL50
+Ih=J8Z04U=TKfjm;F<kdeb0
+R4
+!s105 ipml_sdpram_v1_6_Frame_capture_ram_v_unit
+S1
+R0
+R11
+8../../ipcore/Frame_capture_ram/rtl/ipml_sdpram_v1_6_Frame_capture_ram.v
+F../../ipcore/Frame_capture_ram/rtl/ipml_sdpram_v1_6_Frame_capture_ram.v
+R16
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+nipml_sdpram_v1_6_@frame_capture_ram
+vipml_sdpram_v1_6_LMS_FIFO
+R2
+R3
+!i10b 1
+!s100 UUHEeO>VE25?8ki_L3ZJK2
+Ic?;n34SQ8NYD8]aaC2c7f1
+R4
+!s105 ipml_sdpram_v1_6_LMS_FIFO_v_unit
+S1
+R0
+R15
+8../../ipcore/LMS_FIFO/rtl/ipml_sdpram_v1_6_LMS_FIFO.v
+F../../ipcore/LMS_FIFO/rtl/ipml_sdpram_v1_6_LMS_FIFO.v
+R16
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+nipml_sdpram_v1_6_@l@m@s_@f@i@f@o
+vipml_sdpram_v1_6_Voice_change_ram
+R2
+R3
+!i10b 1
+!s100 <P`JQHhU4g@MAE`820f:41
+ID_BNgaAFFc36mMo8H_>]91
+R4
+!s105 ipml_sdpram_v1_6_Voice_change_ram_v_unit
+S1
+R0
+Z17 w1716972320
+8../../ipcore/Voice_change_ram/rtl/ipml_sdpram_v1_6_Voice_change_ram.v
+F../../ipcore/Voice_change_ram/rtl/ipml_sdpram_v1_6_Voice_change_ram.v
+R16
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+nipml_sdpram_v1_6_@voice_change_ram
+vipml_sdpram_v1_6_w_lms_ram
+R2
+R3
+!i10b 1
+!s100 ;dl^B@3?[VEh7Pa4AoFmg3
+IoF5;dMlGe3I9oj_kXNZ=e2
+R4
+!s105 ipml_sdpram_v1_6_w_lms_ram_v_unit
+S1
+R0
+Z18 w1719152287
+8../../ipcore/w_lms_ram/rtl/ipml_sdpram_v1_6_w_lms_ram.v
+F../../ipcore/w_lms_ram/rtl/ipml_sdpram_v1_6_w_lms_ram.v
+R16
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+vipsxe_fft_onboard_top_tb
+R2
+R3
+!i10b 1
+!s100 jKlkjS?E2TKL?E9ZMd1WI3
+IJOl4ohfDAk]P;Id:3Ac9j0
+R4
+!s105 ipsxe_fft_onboard_top_tb_sv_unit
+S1
+R0
+w1721563758
+8../ipsxe_fft_onboard_top_tb.sv
+F../ipsxe_fft_onboard_top_tb.sv
+L0 14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+vLinear_interpolation
+R2
+R3
+!i10b 1
+!s100 :YK>f93aLY58aT6Ze1jac2
+IU]F_06UN56G[M6m[=KHOE0
+R4
+!s105 Linear_interpolation_v_unit
+S1
+R0
+w1717071737
+8../../source/Linear_interpolation.v
+F../../source/Linear_interpolation.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@linear_interpolation
+vLMS_FIFO
+R2
+R3
+!i10b 1
+!s100 :lkmiLVBfZbT:QbHU::m92
+IfneedePY26<Je2m5ajQOn0
+R4
+!s105 LMS_FIFO_v_unit
+S1
+R0
+R15
+8../../ipcore/LMS_FIFO/LMS_FIFO.v
+F../../ipcore/LMS_FIFO/LMS_FIFO.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@l@m@s_@f@i@f@o
+vpre_add
+R2
+R3
+!i10b 1
+!s100 33V:fH95e;U:C3dI@A_JN0
+IiMzo76O`e9WNjo[iT[FTa1
+R4
+!s105 pre_add_v_unit
+S1
+R0
+w1716535440
+8../../source/pre_add.v
+F../../source/pre_add.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+vsin
+R2
+R3
+!i10b 1
+!s100 `U_5mRfE^>>bJQ]>6?:Fg3
+IOlEFe:=BDS@P_Sdkb11n73
+R4
+!s105 sin_v_unit
+S1
+R0
+w1717072533
+8../../source/source/sin.v
+F../../source/source/sin.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+vsin_Amplitude_modulation
+R2
+R3
+!i10b 1
+!s100 ]IVNaFdVkcaEnD:l2iM4R2
+Iia2ghkX8W_g?9Gh5G2cXd2
+R4
+!s105 sin_Amplitude_modulation_v_unit
+S1
+R0
+w1717131234
+8../../source/sin_Amplitude_modulation.v
+F../../source/sin_Amplitude_modulation.v
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+nsin_@amplitude_modulation
+vVoice_change
+R2
+R3
+!i10b 1
+!s100 keb4Jez:IQYKKfA]7L>OI3
+Ig9Y6[M;gAG2m@g<5[kTDo3
+R4
+!s105 Voice_change_v_unit
+S1
+R0
+w1718897582
+8../../source/source/Voice_change.v
+F../../source/source/Voice_change.v
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@voice_change
+vVoice_change_ram
+R2
+R3
+!i10b 1
+!s100 NOz4a9W@nTd;6j4F6MSZ:3
+IG1=HfWZ7PGPCIgiBCR79i2
+R4
+!s105 Voice_change_ram_v_unit
+S1
+R0
+R17
+8../../ipcore/Voice_change_ram/Voice_change_ram.v
+F../../ipcore/Voice_change_ram/Voice_change_ram.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+n@voice_change_ram
+vw_lms_ram
+R2
+R3
+!i10b 1
+!s100 ]3<TLh8dFFboIbaY3jAIl1
+I;9JGCk7BdJbKZZOGU[^1m1
+R4
+!s105 w_lms_ram_v_unit
+S1
+R0
+R18
+8../../ipcore/w_lms_ram/w_lms_ram.v
+F../../ipcore/w_lms_ram/w_lms_ram.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+vw_updata
+R2
+R3
+!i10b 1
+!s100 OD>=_EQ`CComC>6cT=b8k3
+IbLiQK@U?Y@6_cdShk4>M03
+R4
+!s105 w_updata_v_unit
+S1
+R0
+w1721568642
+8../../source/w_updata.v
+F../../source/w_updata.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
+vx
+R2
+R3
+!i10b 1
+!s100 Uh608FLdGioOM`ATzOz^:1
+IcO9lIP:elf:b3:S9DJWTM2
+R4
+!s105 x_v_unit
+S1
+R0
+w1718817346
+8../../source/source/x.v
+F../../source/source/x.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+o-sv
+R1
