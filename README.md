@@ -1,6 +1,8 @@
 # Audio_processing
 基于紫光同创音频处理系统
 
+集合了FPGA和Python仿真  
+其中sim2可以直接关联modeslim进行设计电路仿真验证  
 
 一些调试笔记  
 【有道云笔记】预加从  
